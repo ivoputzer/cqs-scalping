@@ -1,4 +1,32 @@
 {
   "name": "cqs-scalping",
-  "version": "0.0.0-draft.0"
+  "version": "0.0.0-draft.0",
+  "description": "CQS Scalping CLI",
+  "main": "index.js",
+  "bin": {
+    "cqs-scalping": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ivo von Putzer Reibegg <ivo.putzer@gmail.com> (https://github.com/ivoputzer)",
+  "license": "MIT",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ivoputzer/cqs-scalping.git"
+  },
+  "keywords": [
+    "cqs",
+    "scalping",
+    "signals",
+    "feed",
+    "notifier"
+  ],
+  "bugs": {
+    "url": "https://github.com/ivoputzer/cqs-scalping/issues"
+  },
+  "homepage": "https://github.com/ivoputzer/cqs-scalping#readme"
 }
